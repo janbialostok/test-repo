@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-sequence-test-service-common-dev
+  namespace: sqncts-dev
+data:
+  DATABASE_HOSTNAME: "localhost"
+  DATABASE_PORT: "5432"
+  DATABASE_NAME: "sequence-test-service-db"
